@@ -19,6 +19,9 @@ def test_fibonacci2():
     assert result==accepted_value
 
 def test_fibonacci3():
+    """
+    To try if the result not equal accepted value
+    """
     #Arrange
     number=7
     accepted_value=12
