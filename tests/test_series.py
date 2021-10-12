@@ -19,12 +19,9 @@ def test_fibonacci2():
     assert result==accepted_value
 
 def test_fibonacci3():
-    """
-    To try if the result not equal accepted value
-    """
     #Arrange
-    number=7
-    accepted_value=12
+    number=8
+    accepted_value=21
     #Act
     result=series.fibonacci(number)
     #Aseert
@@ -49,12 +46,9 @@ def test_lucas2():
     assert result==accepted_value
 
 def test_lucas3():
-    """
-    To try if the result not equal accepted value
-    """
     #Arrange
-    number=7
-    accepted_value=12
+    number=0
+    accepted_value=2
     #Act
     result=series.lucas(number)
     #Aseert
@@ -79,13 +73,10 @@ def test_sum_series2():
     assert result==accepted_value
 
 def test_sum_series3():
-    """
-    To try if the result not equal accepted value
-    """
     #Arrange
-    number=0
+    number=1
     accepted_value=1
     #Act
-    result=series.sum_series(number,2,0)
+    result=series.sum_series(number,2,1)
     #Aseert
     assert result==accepted_value
